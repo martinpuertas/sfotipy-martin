@@ -2,57 +2,235 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Sfotipy</title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<header class="header">
-		
+	<header class="header relative border-bottom">
+		<div class="logo">
+			<div class="wrap center-block">
+				<figure class="image img-logo left">
+					<img src="img/logo.png" alt="logo">
+				</figure>
+				<div class="user right">
+					<figure class="avatar round left">
+						<img src="img/avatar.png" alt="avatar" width="38">
+					</figure>
+					<span class="username">@martinpuertasc</span>
+				</div>
+				<div class="search right">
+					<form action="" class="relative">
+						<span class="icon-search icon-input"></span>
+						<input type="text" class="input" placeholder="Search">
+					</form>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="button-menu icon-menu"></a>
+		<nav class="menu">
+			<ul class="list center-block">
+				<li class="item">
+					<a href="#">Top Hits</a>
+				</li>
+				<li class="item">
+					<a href="#">Profile</a>
+				</li>
+				<li class="item">
+					<a href="#">Settings</a>
+				</li>
+				<li class="item">
+					<a href="#">Playlists</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="title">
+			<span>
+				Top Hits
+			</span>
+		</div>
 	</header>
+	<section class="playing small medium large center-block">
+		<div class="music">
+			<figure class="image relative">
+					<img src="img/AmFoot.jpg" alt="American Football LP">
+					<div class="actions right-text padding">
+						<a href="" class="action icon-add"></a>
+						<a href="" class="action icon-love"></a>
+						<a href="" class="action icon-share"></a>
+					</div>
+			</figure>
+			<div class="progress padding">
+				<span class="min">0:45</span>
+				<div class="total">
+					<div class="state">
+						<div class="circle">
+							
+						</div>
+					</div>
+				</div>
+				<span class="max">3:55</span>
+			</div>
+			<div class="description center-text border-bottom">
+				<p class="name">
+					American Football
+				</p>
+				<p class="author">
+					American Football
+				</p>
+			</div>
+			<div class="play center-text padding-top-bot">
+				<a href="" class="action gray padding-izq-der icon-prev"></a>
+				<a href="" class="action gray padding-izq-der icon-play"></a>
+				<a href="" class="action gray padding-izq-der icon-next"></a>
+				<a href="" class="action gray padding-izq-der icon-random"></a>
+				<a href="" class="action gray padding-izq-der icon-vol"></a>
+			</div>
+		</div>
+		<div class="playlist right">
+			<p class="name">American Football</p>
+			<p class="author">American Football</p>
+			<ul class="list">
+				<li class="item">
+					<span>Never meant</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>The summer ends</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>Honestly?</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>For sure</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>You know I should be leaving soon</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>But the regrets are killing me</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>I'll see you when we're both not so emotional</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>Stay home</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+				<li class="item">
+					<span>The one with the wurlitzer</span>
+					<span class="right">
+						<a href="" class="action icon-add gray"></a>
+						<a href="" class="action icon-love gray"></a>
+						<a href="" class="action icon-share gray"></a>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</section>
 	<section class="container">
-		<article class="song">
+		<article class="album">
+			<figure class="image">
+				<img src="img/Algernon.jpg" width="128" height="128" alt="Algernon Cadwallader">
+			</figure>
+			<p class="name">
+				Fun EP
+			</p>
+			<p class="author">
+				Algernon Cadwallader
+			</p>
+		</article>
+		<article class="album">
 			<figure class="image">
 				<img src="img/AmFoot.jpg" width="128" height="128" alt="American Football LP">
 			</figure>
 			<p class="name">
-				Never meant
+				American Football
 			</p>
 			<p class="author">
 				American Football
 			</p>
 		</article>
-		<article class="song">
+		<article class="album">
 			<figure class="image">
-				<img src="img/AmFoot.jpg" width="128" height="128" alt="American Football LP">
+				<img src="img/Archers.jpg" width="128" height="128" alt="Archers of Loaf - Icky Mettle">
 			</figure>
 			<p class="name">
-				Never meant
+				Icky Mettle
 			</p>
 			<p class="author">
-				American Football
+				Archers of Loaf
 			</p>
 		</article>
-		<article class="song">
+		<article class="album">
 			<figure class="image">
-				<img src="img/AmFoot.jpg" width="128" height="128" alt="American Football LP">
+				<img src="img/NoAge.jpg" width="128" height="128" alt="No Age - Nouns">
 			</figure>
 			<p class="name">
-				Never meant
+				Nouns
 			</p>
 			<p class="author">
-				American Football
+				No Age
 			</p>
 		</article>
-		<article class="song">
+		<article class="album">
 			<figure class="image">
-				<img src="img/AmFoot.jpg" width="128" height="128" alt="American Football LP">
+				<img src="img/Screaming.jpg" width="128" height="128" alt="Screaming Females - Mountain Rose">
 			</figure>
 			<p class="name">
-				Never meant
+				Mountain Rose
 			</p>
 			<p class="author">
-				American Football
+				Screaming Females
+			</p>
+		</article><article class="album">
+			<figure class="image">
+				<img src="img/TheThermals.jpg" width="128" height="128" alt="The Thermals - Personal Life">
+			</figure>
+			<p class="name">
+				Personal Life
+			</p>
+			<p class="author">
+				The Thermals
 			</p>
 		</article>
 	</section>
